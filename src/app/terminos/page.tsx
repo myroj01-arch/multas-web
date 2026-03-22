@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Términos y Condiciones | Gestión Multas Colombia',
-  description: 'Términos y condiciones del servicio de gestión de multas de tránsito en Colombia.',
+  title: 'Términos y Condiciones | Expertos en Multas de Tránsito',
+  description: 'Términos y condiciones del servicio de multas de tránsito en Colombia.',
 }
 
 export default function TerminosPage() {
@@ -12,7 +12,7 @@ export default function TerminosPage() {
       <header className="bg-white border-b border-slate-100 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="text-xl font-bold text-primary-700">
-            Gestión Multas <span className="font-light text-slate-500">Colombia</span>
+            Expertos en Multas de Tránsito <span className="font-light text-slate-500">— Asesoría Legal Integral</span>
           </Link>
           <Link
             href="/"
@@ -37,14 +37,14 @@ export default function TerminosPage() {
           <section className="mb-10">
             <h2 className="text-xl font-bold text-slate-900 mb-4">1. Aceptación de los términos</h2>
             <p className="text-slate-600 mb-4">
-              Al acceder y utilizar los servicios de Gestión Multas Colombia, usted acepta cumplir y estar sujeto a los presentes términos y condiciones. Si no está de acuerdo con alguno de estos términos, por favor no utilice nuestros servicios.
+              Al acceder y utilizar los servicios de Expertos en Multas de Tránsito, usted acepta cumplir y estar sujeto a los presentes términos y condiciones. Si no está de acuerdo con alguno de estos términos, por favor no utilice nuestros servicios.
             </p>
           </section>
 
           <section className="mb-10">
             <h2 className="text-xl font-bold text-slate-900 mb-4">2. Descripción del servicio</h2>
             <p className="text-slate-600 mb-4">
-              Gestión Multas Colombia ofrece un servicio de evaluación de viabilidad jurídica y gestión de procesos relacionados con multas de tránsito en Colombia. El servicio incluye:
+              Expertos en Multas de Tránsito ofrece un servicio de evaluación de viabilidad jurídica y gestión de procesos relacionados con multas de tránsito en Colombia. El servicio incluye:
             </p>
             <ul className="list-disc pl-6 text-slate-600 space-y-2 mb-4">
               <li><strong>Diagnóstico inicial sin costo:</strong> Revisión preliminar de la situación del usuario para determinar si existe sustento jurídico para avanzar.</li>
@@ -89,7 +89,7 @@ export default function TerminosPage() {
           <section className="mb-10">
             <h2 className="text-xl font-bold text-slate-900 mb-4">6. Limitación de responsabilidad</h2>
             <p className="text-slate-600 mb-4">
-              Gestión Multas Colombia no garantiza resultados específicos en ningún caso. Los procesos de tránsito están sujetos a la valoración de las autoridades competentes y escapan a nuestro control directo.
+              Expertos en Multas de Tránsito no garantiza resultados específicos en ningún caso. Los procesos de tránsito están sujetos a la valoración de las autoridades competentes y escapan a nuestro control directo.
             </p>
             <p className="text-slate-600 mb-4">
               No somos responsables por decisiones desfavorables de las autoridades de tránsito, retrasos en los procesos administrativos, cambios en la normatividad vigente, o cualquier consecuencia derivada de la información inexacta o incompleta proporcionada por el usuario.
@@ -111,7 +111,7 @@ export default function TerminosPage() {
           <section className="mb-10">
             <h2 className="text-xl font-bold text-slate-900 mb-4">8. Propiedad intelectual</h2>
             <p className="text-slate-600 mb-4">
-              Todo el contenido del sitio web, incluyendo textos, gráficos, logotipos, imágenes y software, es propiedad de Gestión Multas Colombia o de sus proveedores de contenido y está protegido por las leyes de propiedad intelectual colombianas.
+              Todo el contenido del sitio web, incluyendo textos, gráficos, logotipos, imágenes y software, es propiedad de Expertos en Multas de Tránsito o de sus proveedores de contenido y está protegido por las leyes de propiedad intelectual colombianas.
             </p>
           </section>
 
@@ -163,7 +163,7 @@ export default function TerminosPage() {
       <footer className="bg-slate-900 text-white mt-16">
         <div className="max-w-4xl mx-auto px-4 py-8 text-center">
           <p className="text-sm text-slate-400">
-            © {new Date().getFullYear()} Gestión Multas Colombia. Todos los derechos reservados.
+            © {new Date().getFullYear()} Expertos en Multas de Tránsito — Asesoría Legal Integral. Todos los derechos reservados.
           </p>
         </div>
       </footer>

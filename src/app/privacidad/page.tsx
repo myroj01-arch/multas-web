@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Política de Privacidad | Gestión Multas Colombia',
-  description: 'Política de privacidad y protección de datos personales de Gestión Multas Colombia.',
+  title: 'Política de Privacidad | Expertos en Multas de Tránsito',
+  description: 'Política de privacidad y protección de datos personales de Expertos en Multas de Tránsito.',
 }
 
 export default function PrivacidadPage() {
@@ -12,7 +12,7 @@ export default function PrivacidadPage() {
       <header className="bg-white border-b border-slate-100 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="text-xl font-bold text-primary-700">
-            Gestión Multas <span className="font-light text-slate-500">Colombia</span>
+            Expertos en Multas de Tránsito <span className="font-light text-slate-500">— Asesoría Legal Integral</span>
           </Link>
           <Link
             href="/"
@@ -37,7 +37,7 @@ export default function PrivacidadPage() {
           <section className="mb-10">
             <h2 className="text-xl font-bold text-slate-900 mb-4">1. Responsable del tratamiento</h2>
             <p className="text-slate-600 mb-4">
-              <strong>Gestión Multas Colombia</strong>, identificado con email de contacto <strong>shaggy6685@gmail.com</strong>, es el responsable del tratamiento de sus datos personales.
+               <strong>Expertos en Multas de Tránsito</strong>, identificado con email de contacto <strong>shaggy6685@gmail.com</strong>, es el responsable del tratamiento de sus datos personales.
             </p>
             <p className="text-slate-600 mb-4">
               Nos comprometemos a proteger su privacidad y a tratar sus datos personales de accordance con la normativa colombiana de protección de datos, en particular la Ley 1581 de 2012, el Decreto 1377 de 2013 y demás normatividad que los adicione, modifique o complemente.
@@ -101,7 +101,7 @@ export default function PrivacidadPage() {
           <section className="mb-10">
             <h2 className="text-xl font-bold text-slate-900 mb-4">5. Autorización</h2>
             <p className="text-slate-600 mb-4">
-              Al proporcionar sus datos personales a través de nuestro sitio web, formulario de contacto o comunicación directa, usted autoriza expresamente a Gestión Multas Colombia para el tratamiento de sus datos personales de acuerdo con las finalidades descritas en esta política.
+               Al proporcionar sus datos personales a través de nuestro sitio web, formulario de contacto o comunicación directa, usted autoriza expresamente a Expertos en Multas de Tránsito para el tratamiento de sus datos personales de acuerdo con las finalidades descritas en esta política.
             </p>
             <p className="text-slate-600 mb-4">
               La autorización será recopilada de manera previa, expresa e informada, cumpliendo con los requisitos establecidos en la Ley 1581 de 2012.
@@ -219,7 +219,7 @@ export default function PrivacidadPage() {
       <footer className="bg-slate-900 text-white mt-16">
         <div className="max-w-4xl mx-auto px-4 py-8 text-center">
           <p className="text-sm text-slate-400">
-            © {new Date().getFullYear()} Gestión Multas Colombia. Todos los derechos reservados.
+            © {new Date().getFullYear()} Expertos en Multas de Tránsito — Asesoría Legal Integral. Todos los derechos reservados.
           </p>
         </div>
       </footer>
