@@ -24,7 +24,8 @@ export interface Anuncio {
 // =============================================================================
 
 export const siteConfig = {
-  nombre: 'Gestión de Multas de Tránsito',
+  nombre: 'Expertos en Multas de Tránsito',
+  tagline: 'Asesoría Legal Integral',
   telefono: '+57 315 676 9443',
   whatsapp: '573156769443',
   email: 'shaggy6685@gmail.com',

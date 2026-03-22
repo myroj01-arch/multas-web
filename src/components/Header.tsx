@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { siteConfig } from '@/lib/data'
+import BrandLogo from './BrandLogo'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,12 +13,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold text-primary-700">
-              Gestión Multas
-            </span>
-            <span className="text-xl font-light text-slate-500 ml-1">
-              Colombia
-            </span>
+            <BrandLogo />
           </div>
 
           {/* Desktop Nav */}

@@ -8,11 +8,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo y descripción */}
           <div>
-            <div className="text-xl font-bold mb-4">
-              Gestión Multas <span className="font-light text-slate-400">Colombia</span>
+            <div className="text-xl font-bold mb-4 text-white">
+              EXPERTOS EN MULTAS DE TRÁNSITO
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Evaluamos tu multa de tránsito sin costo. Si encontramos sustento jurídico y documental para avanzar, gestionamos tu caso. Solo cobramos cuando hay base real para pelearla.
+              ASESORÍA LEGAL INTEGRAL. Evaluamos tu multa de tránsito sin costo. Si encontramos sustento jurídico y documental para avanzar, gestionamos tu caso. Solo cobramos cuando hay base real para pelearla.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} Gestión Multas Colombia. Todos los derechos reservados.
+            © {new Date().getFullYear()} EXPERTOS EN MULTAS DE TRÁNSITO — ASESORÍA LEGAL INTEGRAL. Todos los derechos reservados.
           </p>
           <p className="text-xs text-slate-600">
             Solo avanzamos cuando vemos sustento jurídico y documental.
