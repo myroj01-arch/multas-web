@@ -37,6 +37,9 @@ export default function Header() {
             <a href="#faq" className="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">
               Preguntas
             </a>
+            <a href="#pagos" className="text-sm font-medium text-slate-600 hover:text-primary-600 transition-colors">
+              Pagos
+            </a>
           </nav>
 
           {/* CTA Desktop */}
@@ -88,6 +91,9 @@ export default function Header() {
             </a>
             <a href="#faq" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-600 hover:text-primary-600">
               Preguntas
+            </a>
+            <a href="#pagos" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-600 hover:text-primary-600">
+              Pagos
             </a>
             <a
               href={`https://wa.me/${siteConfig.whatsapp}`}

@@ -8,6 +8,7 @@ import QueRevisamos from '@/components/QueRevisamos'
 import Alcoholemia from '@/components/Alcoholemia'
 import NoPrometemos from '@/components/NoPrometemos'
 import FAQ from '@/components/FAQ'
+import PaymentMethods from '@/components/PaymentMethods'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Alcoholemia />
       <NoPrometemos />
       <FAQ />
+      <PaymentMethods />
       <ContactForm />
       <Footer />
     </main>

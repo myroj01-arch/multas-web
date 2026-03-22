@@ -26,6 +26,7 @@ export default function Footer() {
               <li><a href="#beneficios" className="hover:text-white transition-colors">Beneficios</a></li>
               <li><a href="#alcoholemia" className="hover:text-white transition-colors">Alcoholemia</a></li>
               <li><a href="#faq" className="hover:text-white transition-colors">Preguntas frecuentes</a></li>
+              <li><a href="#pagos" className="hover:text-white transition-colors">Pagos</a></li>
               <li><a href="#contacto" className="hover:text-white transition-colors">Contacto</a></li>
               <li><Link href="/terminos" className="hover:text-white transition-colors">Términos y Condiciones</Link></li>
               <li><Link href="/privacidad" className="hover:text-white transition-colors">Política de Privacidad</Link></li>
