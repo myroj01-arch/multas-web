@@ -171,8 +171,8 @@ export const procesoPasos = [
 
 export const queRevisamos = [
   {
-    titulo: 'Plazos de prescripción',
-    descripcion: 'Verificamos si la multa ya está prescrita según el Art. 818 del Estatuto Tributario modificado por la Ley 1816 de 2016. Muchos casos se ganan por prescripción.',
+    titulo: 'Plazos de prescripción (hasta 6 años)',
+    descripcion: 'Verificamos si la multa ya está prescrita según el Art. 159 del Código Nacional de Tránsito en concordancia con el Art. 818 del Estatuto Tributario. Las multas prescriben en 3 años desde la infracción, pero si hay mandamiento de pago, el plazo se reinicia por otros 3 años. Muchas multas pueden estar prescritas.',
   },
   {
     titulo: 'Vicios de procedimiento',
@@ -278,7 +278,7 @@ export const faqContent: PreguntaFAQ[] = [
   },
   {
     pregunta: '¿Qué pasa si mi multa está prescrita?',
-    respuesta: 'La prescripción es una causal de extinción de la obligación según el Art. 818 del Estatuto Tributario. Si detectamos que tu multa está prescrita, te lo informamos y tramitamos la declaratoria de prescripción.',
+    respuesta: 'La prescripción opera cuando la autoridad no adelanta el cobro coactivo dentro del término legal. Según el Art. 159 del Código Nacional de Tránsito en concordancia con el Art. 818 del Estatuto Tributario, las multas prescriben en 3 años desde la infracción. Si se notifica el mandamiento de pago, el plazo se reinicia por otros 3 años. Eso significa hasta 6 años máximos. Si detectamos que tu multa está prescrita, tramitamos la declaratoria de prescripción.',
   },
   {
     pregunta: '¿Ustedes garantizan que mi multa sea revocada?',

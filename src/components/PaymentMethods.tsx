@@ -1,11 +1,12 @@
 'use client'
 
 export default function PaymentMethods() {
+  const phoneNumber = '3156769443'
   const methods = [
-    { nombre: 'Nequi', numero: '315 676 9443', color: 'bg-pink-50 border-pink-100', text: 'text-pink-600' },
-    { nombre: 'Bancolombia', numero: '315 676 9443', color: 'bg-yellow-50 border-yellow-100', text: 'text-yellow-600' },
-    { nombre: 'Daviplata', numero: '315 676 9443', color: 'bg-red-50 border-red-100', text: 'text-red-600' },
-    { nombre: 'Llave Bre-B', numero: '315 676 9443', color: 'bg-blue-50 border-blue-100', text: 'text-blue-600' },
+    { nombre: 'Nequi', numero: phoneNumber, color: 'bg-pink-50 border-pink-100', text: 'text-pink-600', qr: `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${phoneNumber}` },
+    { nombre: 'Bancolombia', numero: phoneNumber, color: 'bg-yellow-50 border-yellow-100', text: 'text-yellow-600', qr: `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${phoneNumber}` },
+    { nombre: 'Daviplata', numero: phoneNumber, color: 'bg-red-50 border-red-100', text: 'text-red-600', qr: `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${phoneNumber}` },
+    { nombre: 'Llave Bre-B', numero: phoneNumber, color: 'bg-blue-50 border-blue-100', text: 'text-blue-600', qr: `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${phoneNumber}` },
   ]
 
   return (
@@ -17,15 +18,22 @@ export default function PaymentMethods() {
             Métodos de pago
           </h2>
           <p className="text-lg text-slate-500">
-            Realiza tu pago a través de cualquiera de estos métodos.
+            Escanea el código QR o copia el número para realizar tu pago.
           </p>
         </div>
 
         {/* Payment methods grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           {methods.map((method) => (
-            <div key={method.nombre} className={`p-5 rounded-lg border ${method.color}`}>
-              <div className="text-sm font-semibold text-slate-700 mb-2">{method.nombre}</div>
+            <div key={method.nombre} className={`p-5 rounded-lg border ${method.color} flex flex-col items-center`}>
+              <div className="mb-3">
+                <img 
+                  src={method.qr} 
+                  alt={`QR ${method.nombre}`}
+                  className="w-28 h-28 rounded-lg border-2 border-white shadow-sm"
+                />
+              </div>
+              <div className="text-sm font-semibold text-slate-700 mb-1">{method.nombre}</div>
               <div className="text-base font-bold text-slate-900">{method.numero}</div>
             </div>
           ))}
