@@ -269,6 +269,10 @@ export const faqContent: PreguntaFAQ[] = [
     respuesta: 'Contamos con expedientes documentados con resoluciones favorables, paz y salvos y archivos de proceso. Cada caso que mostramos tiene soporte documental. No mostramos porcentajes inventados ni promesas vacías.',
   },
   {
+    pregunta: '¿Cómo puedo consultar mis multas en SIMIT?',
+    respuesta: 'Puedes consultar tus multas directamente en la plataforma del SIMIT (Sistema Integrado de Información de Multas de Tránsito). Ingresa a https://www.fcm.org.co/simit/#/home-public y digita tu número de documento. Allí podrás ver todas tus comparendos, fotomultas y el estado actual de cada una. Si tienes dudas sobre lo que encuentras, escríbenos y te ayudamos a interpretar la información.',
+  },
+  {
     pregunta: '¿Qué incluye exactamente el servicio por $150.000 COP?',
     respuesta: 'Análisis jurídico completo de la multa, revisión de causales de impugnación, preparación del expediente, elaboración y radicación del recurso, seguimiento ante la autoridad competente, y comunicación de novedades hasta resolución definitiva.',
   },
@@ -283,6 +287,22 @@ export const faqContent: PreguntaFAQ[] = [
   {
     pregunta: '¿Ustedes garantizan que mi multa sea revocada?',
     respuesta: 'No hacemos garantías. Hacemos análisis rigurosos y gestión profesional. Si hay sustento para ganar, hacemos todo lo posible por lograrlo. Si no lo hay, te lo decimos antes de empezar.',
+  },
+  {
+    pregunta: '¿Qué es la prescripción de multas de tránsito?',
+    respuesta: 'La prescripción es la extinción del derecho de la autoridad para cobrar una multa por el paso del tiempo. Según el Art. 159 del Código Nacional de Tránsito Terrestre (Ley 769 de 2002) en concordancia con el Art. 818 del Estatuto Tributario, las multas de tránsito prescriben en tres (3) años contados desde la fecha de la infracción. Sin embargo, si la autoridad notifica un mandamiento de pago, el término se interrumpe y se reinicia por otros tres (3) años. Esto significa que el plazo máximo de prescripción es de 6 años desde la notificación del mandamiento de pago.',
+  },
+  {
+    pregunta: '¿Cuánto tiempo dura el proceso de prescripción?',
+    respuesta: 'El término de prescripción ordinario es de 3 años desde la infracción. Este plazo se puede extender hasta 6 años si la autoridad notifica un mandamiento de pago, lo cual interrumpe la prescripción y reinicia el conteo. Es importante verificar si tu multa ha sido/notificada correctamente y si existe algún mandamiento de pago que haya extendido el plazo.',
+  },
+  {
+    pregunta: '¿Cómo sé si mi multa está prescrita?',
+    respuesta: 'Para saber si tu multa está prescrita debes verificar: 1) La fecha de la infracción, 2) Si te notificaron el comparendo o la resolución, 3) Si existe algún mandamiento de pago y su fecha de notificación. Una multa puede estar prescrita si han pasado más de 3 años desde la infracción sin que se haya notificado mandamiento de pago, o si pasaron más de 3 años desde la notificación del mandamiento. Nosotros hacemos este análisis gratis en el diagnóstico inicial.',
+  },
+  {
+    pregunta: '¿Cuál es la fuente oficial de la prescripción?',
+    respuesta: 'El concepto está fundamentado en el Art. 159 del Código Nacional de Tránsito Terrestre (Ley 769 de 2002) modificado por la Ley 1816 de 2016, en concordancia con el Art. 818 del Estatuto Tributario. El Ministerio de Transporte ha emitido conceptos unificados sobre este tema (Radicado 20191340341551 de julio de 2019) que confirman que el término de prescripción es de 3 años, prorrogables por 3 años más mediante la notificación del mandamiento de pago.',
   },
 ]
 
