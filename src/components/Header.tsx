@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { siteConfig } from '@/lib/data'
 import BrandLogo from './BrandLogo'
 
@@ -50,25 +51,33 @@ export default function Header() {
       </div>
 
       {/* Mobile menu */}
-      {isOpen && (
-        <div className="md:hidden bg-white border-t border-slate-100">
-          <div className="px-4 py-3 space-y-1">
-            <a href="#como-funciona" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Cómo funciona</a>
-            <a href="#casos" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Casos</a>
-            <a href="#faq" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Preguntas</a>
-            <a href="#pagos" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Pagos</a>
-            <a href="#contacto" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Contacto</a>
-            <a
-              href={`https://wa.me/${siteConfig.whatsapp}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block text-center px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-lg mt-2"
-            >
-              WhatsApp
-            </a>
-          </div>
-        </div>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.2, ease: 'easeInOut' }}
+            className="md:hidden bg-white border-t border-slate-100 overflow-hidden"
+          >
+            <div className="px-4 py-3 space-y-1">
+              <a href="#como-funciona" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Cómo funciona</a>
+              <a href="#casos" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Casos</a>
+              <a href="#faq" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Preguntas</a>
+              <a href="#pagos" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Pagos</a>
+              <a href="#contacto" onClick={() => setIsOpen(false)} className="block text-sm text-slate-600 py-2">Contacto</a>
+              <a
+                href={`https://wa.me/${siteConfig.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center px-4 py-2 text-sm font-medium text-white bg-primary-600 rounded-lg mt-2"
+              >
+                WhatsApp
+              </a>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   )
 }

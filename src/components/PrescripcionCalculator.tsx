@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-export function PrescripcionCalculator(): JSX.Element {
+export function PrescripcionCalculator() {
   const [fechaComparendo, setFechaComparendo] = useState('')
   const [resultado, setResultado] = useState<{
     prescrita: boolean

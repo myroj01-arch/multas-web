@@ -46,10 +46,22 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-10 pt-6 border-t border-slate-800 text-center">
-          <p className="text-xs text-slate-600">
-            © {new Date().getFullYear()} EXPERTOS EN MULTAS DE TRÁNSITO — ASESORÍA LEGAL INTEGRAL
-          </p>
+        <div className="mt-10 pt-6 border-t border-slate-800">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <p className="text-sm text-slate-400">
+                © {new Date().getFullYear()} Expertos en Multas de Tránsito
+              </p>
+              <span className="text-slate-700">·</span>
+              <p className="text-sm text-slate-500 italic">
+                "Evaluamos tu multa sin costo. Si hay sustento, la gestionamos."
+              </p>
+            </div>
+            <div className="flex items-center gap-4 text-xs text-slate-500">
+              <Link href="/terminos" className="hover:text-white transition-colors">Términos</Link>
+              <Link href="/privacidad" className="hover:text-white transition-colors">Privacidad</Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

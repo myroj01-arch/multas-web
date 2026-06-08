@@ -4,7 +4,7 @@ import { heroContent, siteConfig } from '@/lib/data'
 import { useState } from 'react'
 import { WhatsAppIcon } from './WhatsAppIcon'
 
-export function Hero(): JSX.Element {
+export function Hero() {
   const [variant, setVariant] = useState<'A' | 'B'>('A')
   const content = variant === 'A' ? heroContent.variantA : heroContent.variantB
 
@@ -42,7 +42,7 @@ export function Hero(): JSX.Element {
         </div>
 
         {/* Título */}
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 tracking-tight mb-6 leading-tight">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-slate-900 tracking-tight mb-6 leading-[1.1]">
           {content.titulo}
         </h1>
 

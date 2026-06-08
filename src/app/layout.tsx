@@ -9,6 +9,17 @@ export const metadata: Metadata = {
     title: 'Expertos en Multas de Tránsito | Asesoría Legal Integral',
     description: 'Evaluamos tu multa sin costo. Si hay sustento, la gestionamos por $150.000 COP.',
     type: 'website',
+    locale: 'es_CO',
+    siteName: 'Expertos en Multas de Tránsito',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Expertos en Multas de Tránsito | Asesoría Legal Integral',
+    description: 'Evaluamos tu multa sin costo. Si hay sustento, la gestionamos por $150.000 COP.',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 }
 

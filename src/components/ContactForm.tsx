@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { siteConfig } from '@/lib/data'
 import { WhatsAppIcon } from './WhatsAppIcon'
 
-export function ContactForm(): JSX.Element {
+export function ContactForm() {
   const [formData, setFormData] = useState({
     nombre: '',
     cedula: '',
